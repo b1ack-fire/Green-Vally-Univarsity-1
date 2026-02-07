@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Vally Univarsity</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: whitesmoke;
+        color: #333; /* Slightly softer than pure black */
+        font-size: 18px; /* Increases everything base-level */
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Cleaner font */
+        line-height: 1.6;
+      }
+      header,
+      footer {
+        background-color: #2a7556;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 15px;
+        font-weight: bold;
+
+        font-size: 1.1rem;
+        text-transform: uppercase; /* Makes them look like a menu */
+        letter-spacing: 1px;
+        padding: 5px 10px;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      section {
+        background: white;
+        margin: 50px auto;
+        padding: 40px;
+        width: 90%;
+        max-width: 900px;
+        border-radius: 15px;
+        box-shadow: 0 3px 5px black;
+
+        border: 2px solid #2d6a4f;
+      }
+
+      h1 {
+        font-size: 2.5rem; /* Makes the main title much larger */
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+        color: #1b4332; /* Use your theme green for headings too */
+        border-bottom: 2px solid rgb(23, 22, 22);
+        padding: 10px;
+      }
+      h2 .heading {
+        border: none;
+      }
+      ul,
+      ol {
+        padding-left: 30px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      table th,
+      table td {
+        border: 1px solid #2d6a4f;
+        padding: 10px;
+        text-align: center;
+      }
+
+      table th,
+      table td {
+        background-color: floralwhite;
+      }
+
+      table a {
+        color: #2d6a4f; /* This matches your Emerald Green border */
+        text-decoration: none; /* Optional: removes the underline from emails */
+      }
+
+      table a:hover {
+        color: black; /* Changes color when you hover over the email */
+        text-decoration: underline;
+      }
+
+      form input,
+      form textarea {
+        width: 100%;
+
+        box-sizing: border-box; /* This ensures padding doesn't push the box outside the section */
+
+        margin-bottom: 15px; /* This adds a little breathing room between the fields */
+
+        padding: 10px; /* Your existing styles */
+
+        border-radius: 7px;
+        border: 1px solid black;
+        margin-top: 5px;
+      }
+      button {
+        background-color: #40916c;
+        color: #ffffff;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 30px;
+        cursor: pointer;
+        font-size: 15px;
+      }
+      button:hover {
+        background-color: rgb(181, 246, 255);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Green Vally University</h1>
+
+      <br />
+      <p>Empowering minds.Shaping the Future.</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#department">Department</a>
+        <a href="#admission">Admission</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section id="about">
+      <h2>About Green Valley University</h2>
+      <p>
+        Green Valley University is a leading institution committed to academic
+        excellence, research innovation, and community engagement. We offer a
+        diverse range of undergraduate and postgraduate programs designed to
+        prepare students for global careers.
+      </p>
+    </section>
+    <section id="department">
+      <h2>Our Departments</h2>
+      <ul>
+        <li>CSE</li>
+        <li>BBA</li>
+        <li>EEE</li>
+        <li>Law</li>
+        <li>English</li>
+        <li>Architechture</li>
+      </ul>
+    </section>
+
+    <section id="admission">
+      <h2>Admission Information</h2>
+      <p>
+        Applications are open for Spring and Fall semesters. Interested students
+        can apply online by filling out the admission form and submitting
+        required documents.
+      </p>
+      <ul>
+        <li>Minimum GPA: 3.00</li>
+        <li>Admission Test Required</li>
+        <li>Scholarships Available</li>
+      </ul>
+    </section>
+
+    <section id="faculty">
+      <h2>Our faculty Members</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Dept.</th>
+          <th>Designation</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Faruk Hassan</td>
+          <td>CSE</td>
+          <td>Professor</td>
+          <td><a href="mailto:fkfaruk@gmail.com">fkfaruk@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td>Adoita Sumona</td>
+          <td>Law</td>
+          <td>Asistant Professor</td>
+          <td><a href="mailto:abs@gmail.com"> abs@gmail.com </a></td>
+        </tr>
+        <tr>
+          <td>Ilias Akter Shipon</td>
+          <td>English</td>
+          <td>Lecturer</td>
+          <td>
+            <a href="mailto:illian978@gmail.com "> illian978@gmail.com </a>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section id="events">
+      <h2>Upcoming Events</h2>
+      <ol>
+        <li>Orientation Program - March 15, 2026</li>
+        <li>Tech Fest 2026 - April 10, 2026</li>
+        <li>Convocation Ceremony - June 5, 2026</li>
+      </ol>
+    </section>
+    <section id="contact">
+      <h2>Contact Info</h2>
+      <form action="">
+        <label>Full Name</label>
+        <input type="text" placeholder="enter your name" />
+        <label>Email</label>
+        <input type="text" placeholder="enter your mail" />
+        <label>Subject</label>
+        <input type="text" placeholder="enter your subject" />
+        <label>Comment</label>
+        <textarea row="5" placeholder="write a message/comment"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer>
+      <p>© 2026 Green Valley University. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
